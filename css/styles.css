@@ -372,5 +372,6 @@ footer p {
   background-color: rgba(244, 244, 253, 1);
   width: 264px;
   height: 112px;
+  padding: 24px 100px;
   display: inline-block;
 }
