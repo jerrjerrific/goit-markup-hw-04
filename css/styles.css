@@ -353,4 +353,7 @@ footer p {
   padding-bottom: 32px;
 }
 
-/* TEST ICON CREATION */
+/* TEST ICON CREATION AND NEW SECTION */
+.customers {
+  padding: 120px 628px 592px 629px;
+}
