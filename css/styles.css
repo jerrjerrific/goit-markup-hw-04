@@ -151,9 +151,14 @@ footer p {
 .splash-header {
   text-align: center;
   color: white;
-  background: var(--NAVY-BLUE, #2e2f42);
+  background: rgba(46, 47, 66, 0.7);
   height: 600px;
   margin: 0;
+  background-image: url(/images/splash-header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
 .splash-header h1 {
