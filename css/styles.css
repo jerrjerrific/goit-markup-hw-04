@@ -115,6 +115,7 @@ footer {
   background: var(--NAVY-BLUE, #2e2f42);
   color: var(--CLOUD, #f4f4fd);
   height: 312px;
+  width: 1440px;
   margin: 0px;
 }
 
@@ -381,7 +382,6 @@ footer a {
 }
 
 ul .our-team-icons {
-  display: center;
   padding-top: 8px;
   padding-bottom: 24px;
   border: 0px;
@@ -405,6 +405,7 @@ ul .our-team-icons {
   height: 88px;
   justify-content: center;
   margin-right: 24px;
+  fill: rgba(142, 143, 153, 1);
 }
 
 .customers-icon {
@@ -420,19 +421,20 @@ ul .our-team-icons {
 
 /* footer icons */
 .footer-social-icons {
-  padding: 12px;
+  padding: 10px;
   width: 40px;
   height: 40px;
   stroke: rgba(244, 244, 253, 1);
   fill: rgba(244, 244, 253, 1);
   box-shadow: none;
   align-items: center;
+  margin: 0px;
 }
 
-ul .footer-icons {
+.footer-icons {
   display: inline-flex;
-  padding-top: 8px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  padding-left: 120px;
   border: 0px;
   margin: 0px;
 }
@@ -443,6 +445,7 @@ ul .footer-icons {
   height: 40px;
   border-radius: 50%;
   display: inline-flex;
+  margin-right: 12px;
 }
 
 .footer-socials {
@@ -462,10 +465,27 @@ ul .footer-icons {
 }
 
 .footer-line2 {
+  display: flex;
   margin: 0px;
 }
 
 .footer-text {
   padding-top: 17.5px;
   width: 264px;
+  margin: 0px;
+}
+
+.footer-icons li:hover,
+.footer-icons li:focus {
+  background-color: rgba(49, 208, 170, 1);
+}
+
+.our-team-icons li:hover,
+.footer-icons li:focus {
+  background-color: rgba(64, 75, 191, 1);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: rgba(64, 75, 191, 1);
 }
